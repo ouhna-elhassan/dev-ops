@@ -9,7 +9,7 @@ app.use(cors(corsOptions));
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-//hello
+
 app.get("/", (req, res) =>{
     res.json({message:"je suis ouhna elhassan"})
 })
